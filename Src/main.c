@@ -87,7 +87,7 @@ int main(void) {
 	/* USER CODE BEGIN 2 */
 	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, RESET);
 	/* USER CODE END 2 */
-
+	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
 	/* Infinite loop */
 	/* USER CODE BEGIN WHILE */
 	while (1) {
